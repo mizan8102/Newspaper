@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#D9BAFF</color>
+    <color name="purple_500">#FDD835</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="status">#00ADFF</color>
+    <color name="status_color">#F6F6F6</color>
+    <color name="home_background">#f1f5f8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#F4F4F4</color>
+    <color name="banar_background">#f3f0e7</color>
+    <color name="light_white">#E4E4E4</color>
+    <color name="card_background">#F6F5EB</color>
+    <color name="upload_card">#F3F3F3</color>
+    <color name="textc">#3A3A3A</color>
+    <color name="shinnerback">#DCDCDC</color>
+    <color name="gray">#2d2d2d</color>
+</resources>

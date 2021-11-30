@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501928036624",
+    "project_id": "seismic-handler-292607",
+    "storage_bucket": "seismic-handler-292607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501928036624:android:44cdb416a29ef424d7bd95",
+        "android_client_info": {
+          "package_name": "com.mnewspaper.newspaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501928036624-9404bj5h65pk57i4g360e7u80ob497i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFPSMLJXLsiiKLeA3Z8TxlLGpyXbobR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501928036624-9404bj5h65pk57i4g360e7u80ob497i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

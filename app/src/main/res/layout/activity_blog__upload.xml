@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.Blog_UploadActivity">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+        android:background="@color/home_background">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/applogo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Write Blog"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:maxHeight="1dp"
+                android:maxLines="1"
+                android:inputType="text"
+                android:id="@+id/titletext"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/googlesans_bold"
+                android:textColorHint="#000"
+                android:hint="Title"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titletext"
+                android:layout_marginTop="5dp"
+                android:hint="Description"
+                android:id="@+id/textdecription"
+                android:background="@android:color/transparent"
+                />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/applogo"
+                android:layout_below="@+id/textdecription"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/blogPic"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="100dp"
+                android:layout_below="@+id/blogPic"
+                android:gravity="center"
+                android:background="@color/card_background">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seletctPicture"
+                    android:src="@drawable/ic_baseline_image_24"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="#039BE5"
+                    android:elevation="8dp"
+                    android:id="@+id/txtsubmit"
+                    android:text="Submit"
+                    android:fontFamily="@font/googlesans_bold"
+                    android:layout_marginLeft="8dp"/>
+
+
+
+            </LinearLayout>
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:lottie_rawRes="@raw/loadingios"
+                app:lottie_autoPlay="true"
+                android:visibility="gone"
+                app:lottie_loop="true"
+                android:id="@+id/loadinganimation"
+                android:layout_centerInParent="true"/>
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

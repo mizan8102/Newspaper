@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mnewspaper.newspaper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Newspaper">
+        <activity android:name=".Collospaning_Blog_view"></activity>
+        <activity android:name=".LinkViewActivity" />
+        <activity android:name=".BlogViewActivity" />
+        <activity android:name=".LinkUpload" />
+        <activity android:name=".BookViewActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".Admin.Blog_UploadActivity" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <activity android:name=".Admin.BookUploadActivity" />
+        <activity android:name=".DashboardRetailar_Activity" />
+        <activity android:name=".NewspaperViews" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
